@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.container {
+    max-width: 1000px;  /* or you can adjust to 1000px, 1100px depending on how square you want */
+    margin: 0 auto;     /* this centers the container */
+    padding: 20px;      /* adds some breathing space inside */
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-content {
+    flex: 1;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.subtitle {
+    color: #5F6369;
+    margin-top: 8px;
+}
+
+.nintendo-logo {
+    width: 180px;
+    position: absolute;
+    top: 45px;
+    right: 490px;
+}
+
+/* Main Layout */
+main {
+    display: flex;
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar button {
+    background-color: #EE1C24;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.sidebar button.home {
+    background-color: #FB9695;
+}
+
+.info {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+/* Content Area */
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+.text-content {
+    flex: 0.70;
+}
+
+.image-content {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.score-and-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.score-box img {
+    width: 250px;
+}
+
+.release-date {
+    font-size: 1.3rem;
+    margin-top: 10px; 
+}
+
+
+.game-cover {
+    width: 230px;
+    margin-bottom: 20px;
+}
+
+.rate-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.thumbs-up {
+    width: 50px;
+}
+
+.rate-link {
+    text-decoration: underline; 
+    font-weight: bold;          
+    color: #38578c;
+    font-size: 2rem;
+}
+
